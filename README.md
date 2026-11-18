@@ -51,3 +51,10 @@ Building for iOS requires macOS and Xcode.
 ## License
 
 Released under the [MIT License](LICENSE).
+
+## Individual assignments
+
+The `assignments/` folder holds individual course assignments. Each one is
+a standalone Flutter project, separate from the console:
+
+- [`assignments/todo_list`](assignments/todo_list): to-do list app

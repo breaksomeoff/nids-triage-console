@@ -27,6 +27,15 @@ jobs:
       - run: flutter analyze
       - run: flutter test
       - run: flutter build web --release --base-href /${{ github.event.repository.name }}/
+      # Individual assignment: to-do list app, served at <pages-url>/todo/
+      - name: Build to-do list assignment
+        working-directory: assignments/todo_list
+        run: |
+          flutter pub get
+          flutter analyze
+          flutter test
+          flutter build web --release --base-href /${{ github.event.repository.name }}/todo/
+          cp -r build/web ../../build/web/todo
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build/web
