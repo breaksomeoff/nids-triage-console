@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Android adaptive icon foreground: the briefcase alone, scaled into
+       the safe zone; the background colour comes from the launcher config. -->
+  <g transform="translate(512 512) scale(0.72) translate(-512 -477)">
+    <path d="M402 330 v-38 a46 46 0 0 1 46 -46 h128 a46 46 0 0 1 46 46 v38"
+          fill="none" stroke="#FFFFFF" stroke-width="44" stroke-linecap="round"/>
+    <rect x="232" y="330" width="560" height="400" rx="72" fill="#FFFFFF"/>
+    <rect x="232" y="470" width="560" height="36" fill="#0E7C86"/>
+    <rect x="457" y="446" width="110" height="84" rx="22" fill="#FFC53D"/>
+  </g>
+</svg>

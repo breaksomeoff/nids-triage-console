@@ -55,6 +55,9 @@ Released under the [MIT License](LICENSE).
 ## Individual assignments
 
 The `assignments/` folder holds individual course assignments. Each one is
-a standalone Flutter project, separate from the console:
+standalone and separate from the console:
 
 - [`assignments/todo_list`](assignments/todo_list): to-do list app
+- [`assignments/job_board`](assignments/job_board): job board, with a
+  Flutter [app](assignments/job_board/app) and a Dart
+  [server](assignments/job_board/server)

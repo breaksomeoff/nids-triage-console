@@ -1,0 +1,20 @@
+name: job_board_server
+description: Back-end (REST API + file storage) for the job board assignment.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  crypto: ^3.0.8
+  http_parser: ^4.1.2
+  mime: ^2.1.0
+  shelf: ^1.4.3
+  shelf_router: ^1.1.5
+  shelf_static: ^1.2.0
+  sqlite3: ^3.9.1
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.26.0

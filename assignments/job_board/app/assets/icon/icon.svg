@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15A6B1"/>
+      <stop offset="1" stop-color="#0A4C53"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- Briefcase with an amber clasp, centred. -->
+  <g transform="translate(0 35)">
+    <path d="M402 330 v-38 a46 46 0 0 1 46 -46 h128 a46 46 0 0 1 46 46 v38"
+          fill="none" stroke="#FFFFFF" stroke-width="44" stroke-linecap="round"/>
+    <rect x="232" y="330" width="560" height="400" rx="72" fill="#FFFFFF"/>
+    <rect x="232" y="470" width="560" height="36" fill="#0E7C86"/>
+    <rect x="457" y="446" width="110" height="84" rx="22" fill="#FFC53D"/>
+  </g>
+</svg>
